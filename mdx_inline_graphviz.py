@@ -27,7 +27,7 @@ import base64
 
 # Global vars
 BLOCK_RE = re.compile(
-    r'^\{% (?P<command>\w+)\s+(?P<filename>[^\s]+)\s*\n(?P<content>.*?)%}\s*$',
+    r'^\```graphviz (?P<command>\w+)\s+(?P<filename>[^\s]+)\s*\n(?P<content>.*?)```\s*$',
     re.MULTILINE | re.DOTALL)
 # Command whitelist
 SUPPORTED_COMMAMDS = ['dot', 'neato', 'fdp', 'sfdp', 'twopi', 'circo']
