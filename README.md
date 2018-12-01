@@ -21,7 +21,7 @@ stanza to mkdocs.yml:
 
 ```
 markdown_extensions:
-    - inline_graphviz
+    - mdx_inline_graphviz
 ```
 
 To use it in your Markdown doc:
